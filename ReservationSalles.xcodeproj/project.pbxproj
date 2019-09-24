@@ -1,0 +1,833 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61A70C6C6191F3B7ADC32661 /* Pods_ReservationSalles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8A2A4616BFD485B36DD784 /* Pods_ReservationSalles.framework */; };
+		891E690D22F19DE000B1D74E /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891E690C22F19DE000B1D74E /* DetailsViewController.swift */; };
+		89364AF722DB32D200E02465 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89364AF622DB32D200E02465 /* User.swift */; };
+		893E7E5E22D4E41500755304 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893E7E5D22D4E41500755304 /* SignUpViewController.swift */; };
+		893E7E6022D4E82D00755304 /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893E7E5F22D4E82D00755304 /* iOSDevCenters+GIF.swift */; };
+		894E84822302D354005CBDC6 /* RoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894E84812302D354005CBDC6 /* RoomsViewController.swift */; };
+		894E84842302E432005CBDC6 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894E84832302E432005CBDC6 /* EditViewController.swift */; };
+		89536EA122EF88BA00A10D9D /* Salle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89536EA022EF88BA00A10D9D /* Salle.swift */; };
+		89536EA322EF8A1A00A10D9D /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89536EA222EF8A1A00A10D9D /* Reservation.swift */; };
+		895370B822D4CDB9008939DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895370B722D4CDB9008939DA /* AppDelegate.swift */; };
+		895370BA22D4CDB9008939DA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895370B922D4CDB9008939DA /* LoginViewController.swift */; };
+		895370BD22D4CDB9008939DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895370BB22D4CDB9008939DA /* Main.storyboard */; };
+		895370C022D4CDB9008939DA /* ReservationSalles.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 895370BE22D4CDB9008939DA /* ReservationSalles.xcdatamodeld */; };
+		895370C222D4CDC0008939DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 895370C122D4CDC0008939DA /* Assets.xcassets */; };
+		895370C522D4CDC0008939DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895370C322D4CDC0008939DA /* LaunchScreen.storyboard */; };
+		895370D022D4CDC0008939DA /* ReservationSallesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895370CF22D4CDC0008939DA /* ReservationSallesTests.swift */; };
+		895370DB22D4CDC1008939DA /* ReservationSallesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895370DA22D4CDC1008939DA /* ReservationSallesUITests.swift */; };
+		895AEBE322F64F8200346AB2 /* MyreservationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895AEBE222F64F8200346AB2 /* MyreservationsViewController.swift */; };
+		896CA1902300C624002FF7CB /* SearchFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896CA18F2300C624002FF7CB /* SearchFooter.swift */; };
+		8998882D22DCC21B00043B7F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8998882C22DCC21B00043B7F /* MainViewController.swift */; };
+		89A3455C22EB5CF100B28321 /* AddReservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A3455B22EB5CF100B28321 /* AddReservation.swift */; };
+		89B33DBB22EB6B8D004636D0 /* SecondAddReservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B33DBA22EB6B8D004636D0 /* SecondAddReservation.swift */; };
+		89DF3A1422D4D729000889B8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89DF3A1322D4D729000889B8 /* GoogleService-Info.plist */; };
+		CC6417DE7DEF9DEF7BDBA3E9 /* Pods_ReservationSallesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE3BF66F0CD3F51F8749EC5 /* Pods_ReservationSallesTests.framework */; };
+		E11359461F0F8BB9A60F822C /* Pods_ReservationSallesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F85ADDCF0576006008B10D3 /* Pods_ReservationSallesUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		895370CC22D4CDC0008939DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 895370AC22D4CDB9008939DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 895370B322D4CDB9008939DA;
+			remoteInfo = ReservationSalles;
+		};
+		895370D722D4CDC1008939DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 895370AC22D4CDB9008939DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 895370B322D4CDB9008939DA;
+			remoteInfo = ReservationSalles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F7AE172FE2217784921CEC /* Pods-ReservationSallesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReservationSallesUITests.release.xcconfig"; path = "Target Support Files/Pods-ReservationSallesUITests/Pods-ReservationSallesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2F85ADDCF0576006008B10D3 /* Pods_ReservationSallesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReservationSallesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FE3BF66F0CD3F51F8749EC5 /* Pods_ReservationSallesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReservationSallesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0A47978873CF82DB5FD342 /* Pods-ReservationSalles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReservationSalles.debug.xcconfig"; path = "Target Support Files/Pods-ReservationSalles/Pods-ReservationSalles.debug.xcconfig"; sourceTree = "<group>"; };
+		5DABE36FD596EFF72F225DC7 /* Pods-ReservationSallesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReservationSallesUITests.debug.xcconfig"; path = "Target Support Files/Pods-ReservationSallesUITests/Pods-ReservationSallesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		891E690C22F19DE000B1D74E /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		89364AF622DB32D200E02465 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		893E7E5D22D4E41500755304 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		893E7E5F22D4E82D00755304 /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
+		894E84812302D354005CBDC6 /* RoomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewController.swift; sourceTree = "<group>"; };
+		894E84832302E432005CBDC6 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		89536EA022EF88BA00A10D9D /* Salle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Salle.swift; sourceTree = "<group>"; };
+		89536EA222EF8A1A00A10D9D /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		895370B422D4CDB9008939DA /* ReservationSalles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReservationSalles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		895370B722D4CDB9008939DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		895370B922D4CDB9008939DA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		895370BC22D4CDB9008939DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		895370BF22D4CDB9008939DA /* ReservationSalles.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReservationSalles.xcdatamodel; sourceTree = "<group>"; };
+		895370C122D4CDC0008939DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		895370C422D4CDC0008939DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		895370C622D4CDC0008939DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		895370CB22D4CDC0008939DA /* ReservationSallesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReservationSallesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		895370CF22D4CDC0008939DA /* ReservationSallesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationSallesTests.swift; sourceTree = "<group>"; };
+		895370D122D4CDC0008939DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		895370D622D4CDC1008939DA /* ReservationSallesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReservationSallesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		895370DA22D4CDC1008939DA /* ReservationSallesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationSallesUITests.swift; sourceTree = "<group>"; };
+		895370DC22D4CDC1008939DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		895AEBE222F64F8200346AB2 /* MyreservationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyreservationsViewController.swift; sourceTree = "<group>"; };
+		896CA18F2300C624002FF7CB /* SearchFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFooter.swift; sourceTree = "<group>"; };
+		8998882C22DCC21B00043B7F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		89A3455B22EB5CF100B28321 /* AddReservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReservation.swift; sourceTree = "<group>"; };
+		89B33DBA22EB6B8D004636D0 /* SecondAddReservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondAddReservation.swift; sourceTree = "<group>"; };
+		89DF3A1222D4D4D3000889B8 /* ReservationSalles.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReservationSalles.entitlements; sourceTree = "<group>"; };
+		89DF3A1322D4D729000889B8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A3A781F801F6EC73645D66D8 /* Pods-ReservationSalles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReservationSalles.release.xcconfig"; path = "Target Support Files/Pods-ReservationSalles/Pods-ReservationSalles.release.xcconfig"; sourceTree = "<group>"; };
+		CA8A2A4616BFD485B36DD784 /* Pods_ReservationSalles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReservationSalles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB31B9636966A6D1F49A12B2 /* Pods-ReservationSallesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReservationSallesTests.debug.xcconfig"; path = "Target Support Files/Pods-ReservationSallesTests/Pods-ReservationSallesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4BA7B0086BB3520ABC99E7B /* Pods-ReservationSallesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReservationSallesTests.release.xcconfig"; path = "Target Support Files/Pods-ReservationSallesTests/Pods-ReservationSallesTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		895370B122D4CDB9008939DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A70C6C6191F3B7ADC32661 /* Pods_ReservationSalles.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895370C822D4CDC0008939DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6417DE7DEF9DEF7BDBA3E9 /* Pods_ReservationSallesTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895370D322D4CDC1008939DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11359461F0F8BB9A60F822C /* Pods_ReservationSallesUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		895370AB22D4CDB9008939DA = {
+			isa = PBXGroup;
+			children = (
+				895370B622D4CDB9008939DA /* ReservationSalles */,
+				895370CE22D4CDC0008939DA /* ReservationSallesTests */,
+				895370D922D4CDC1008939DA /* ReservationSallesUITests */,
+				895370B522D4CDB9008939DA /* Products */,
+				B1E5742ECFA4CD6A51B603CC /* Pods */,
+				D266273AA6C1E349578065E5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		895370B522D4CDB9008939DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				895370B422D4CDB9008939DA /* ReservationSalles.app */,
+				895370CB22D4CDC0008939DA /* ReservationSallesTests.xctest */,
+				895370D622D4CDC1008939DA /* ReservationSallesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		895370B622D4CDB9008939DA /* ReservationSalles */ = {
+			isa = PBXGroup;
+			children = (
+				896CA18E2300C5FB002FF7CB /* Views */,
+				89DF3A1222D4D4D3000889B8 /* ReservationSalles.entitlements */,
+				89DF3A1122D4D4A9000889B8 /* Controllers */,
+				89DF3A1022D4D49D000889B8 /* Models */,
+				895370B722D4CDB9008939DA /* AppDelegate.swift */,
+				895370BB22D4CDB9008939DA /* Main.storyboard */,
+				895370C122D4CDC0008939DA /* Assets.xcassets */,
+				895370C322D4CDC0008939DA /* LaunchScreen.storyboard */,
+				895370C622D4CDC0008939DA /* Info.plist */,
+				89DF3A1322D4D729000889B8 /* GoogleService-Info.plist */,
+				895370BE22D4CDB9008939DA /* ReservationSalles.xcdatamodeld */,
+				893E7E5F22D4E82D00755304 /* iOSDevCenters+GIF.swift */,
+			);
+			path = ReservationSalles;
+			sourceTree = "<group>";
+		};
+		895370CE22D4CDC0008939DA /* ReservationSallesTests */ = {
+			isa = PBXGroup;
+			children = (
+				895370CF22D4CDC0008939DA /* ReservationSallesTests.swift */,
+				895370D122D4CDC0008939DA /* Info.plist */,
+			);
+			path = ReservationSallesTests;
+			sourceTree = "<group>";
+		};
+		895370D922D4CDC1008939DA /* ReservationSallesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				895370DA22D4CDC1008939DA /* ReservationSallesUITests.swift */,
+				895370DC22D4CDC1008939DA /* Info.plist */,
+			);
+			path = ReservationSallesUITests;
+			sourceTree = "<group>";
+		};
+		896CA18E2300C5FB002FF7CB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				896CA18F2300C624002FF7CB /* SearchFooter.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		89DF3A1022D4D49D000889B8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				89364AF622DB32D200E02465 /* User.swift */,
+				89536EA022EF88BA00A10D9D /* Salle.swift */,
+				89536EA222EF8A1A00A10D9D /* Reservation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		89DF3A1122D4D4A9000889B8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				895370B922D4CDB9008939DA /* LoginViewController.swift */,
+				893E7E5D22D4E41500755304 /* SignUpViewController.swift */,
+				8998882C22DCC21B00043B7F /* MainViewController.swift */,
+				89A3455B22EB5CF100B28321 /* AddReservation.swift */,
+				89B33DBA22EB6B8D004636D0 /* SecondAddReservation.swift */,
+				891E690C22F19DE000B1D74E /* DetailsViewController.swift */,
+				895AEBE222F64F8200346AB2 /* MyreservationsViewController.swift */,
+				894E84812302D354005CBDC6 /* RoomsViewController.swift */,
+				894E84832302E432005CBDC6 /* EditViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B1E5742ECFA4CD6A51B603CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F0A47978873CF82DB5FD342 /* Pods-ReservationSalles.debug.xcconfig */,
+				A3A781F801F6EC73645D66D8 /* Pods-ReservationSalles.release.xcconfig */,
+				CB31B9636966A6D1F49A12B2 /* Pods-ReservationSallesTests.debug.xcconfig */,
+				D4BA7B0086BB3520ABC99E7B /* Pods-ReservationSallesTests.release.xcconfig */,
+				5DABE36FD596EFF72F225DC7 /* Pods-ReservationSallesUITests.debug.xcconfig */,
+				04F7AE172FE2217784921CEC /* Pods-ReservationSallesUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D266273AA6C1E349578065E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA8A2A4616BFD485B36DD784 /* Pods_ReservationSalles.framework */,
+				2FE3BF66F0CD3F51F8749EC5 /* Pods_ReservationSallesTests.framework */,
+				2F85ADDCF0576006008B10D3 /* Pods_ReservationSallesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		895370B322D4CDB9008939DA /* ReservationSalles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 895370DF22D4CDC1008939DA /* Build configuration list for PBXNativeTarget "ReservationSalles" */;
+			buildPhases = (
+				4D4ACD2F02FDC0ACD9E0A44D /* [CP] Check Pods Manifest.lock */,
+				895370B022D4CDB9008939DA /* Sources */,
+				895370B122D4CDB9008939DA /* Frameworks */,
+				895370B222D4CDB9008939DA /* Resources */,
+				303271E360F14AA01C5BA6F6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReservationSalles;
+			productName = ReservationSalles;
+			productReference = 895370B422D4CDB9008939DA /* ReservationSalles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		895370CA22D4CDC0008939DA /* ReservationSallesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 895370E222D4CDC1008939DA /* Build configuration list for PBXNativeTarget "ReservationSallesTests" */;
+			buildPhases = (
+				9D129F26624FE9D6CBB33BEF /* [CP] Check Pods Manifest.lock */,
+				895370C722D4CDC0008939DA /* Sources */,
+				895370C822D4CDC0008939DA /* Frameworks */,
+				895370C922D4CDC0008939DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				895370CD22D4CDC0008939DA /* PBXTargetDependency */,
+			);
+			name = ReservationSallesTests;
+			productName = ReservationSallesTests;
+			productReference = 895370CB22D4CDC0008939DA /* ReservationSallesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		895370D522D4CDC1008939DA /* ReservationSallesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 895370E522D4CDC1008939DA /* Build configuration list for PBXNativeTarget "ReservationSallesUITests" */;
+			buildPhases = (
+				6B8FCB7F1F3DE40A55530092 /* [CP] Check Pods Manifest.lock */,
+				895370D222D4CDC1008939DA /* Sources */,
+				895370D322D4CDC1008939DA /* Frameworks */,
+				895370D422D4CDC1008939DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				895370D822D4CDC1008939DA /* PBXTargetDependency */,
+			);
+			name = ReservationSallesUITests;
+			productName = ReservationSallesUITests;
+			productReference = 895370D622D4CDC1008939DA /* ReservationSallesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		895370AC22D4CDB9008939DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Mobelite-LABS";
+				TargetAttributes = {
+					895370B322D4CDB9008939DA = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					895370CA22D4CDC0008939DA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 895370B322D4CDB9008939DA;
+					};
+					895370D522D4CDC1008939DA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 895370B322D4CDB9008939DA;
+					};
+				};
+			};
+			buildConfigurationList = 895370AF22D4CDB9008939DA /* Build configuration list for PBXProject "ReservationSalles" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 895370AB22D4CDB9008939DA;
+			productRefGroup = 895370B522D4CDB9008939DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				895370B322D4CDB9008939DA /* ReservationSalles */,
+				895370CA22D4CDC0008939DA /* ReservationSallesTests */,
+				895370D522D4CDC1008939DA /* ReservationSallesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		895370B222D4CDB9008939DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895370C522D4CDC0008939DA /* LaunchScreen.storyboard in Resources */,
+				89DF3A1422D4D729000889B8 /* GoogleService-Info.plist in Resources */,
+				895370C222D4CDC0008939DA /* Assets.xcassets in Resources */,
+				895370BD22D4CDB9008939DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895370C922D4CDC0008939DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895370D422D4CDC1008939DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		303271E360F14AA01C5BA6F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReservationSalles/Pods-ReservationSalles-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReservationSalles/Pods-ReservationSalles-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReservationSalles/Pods-ReservationSalles-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D4ACD2F02FDC0ACD9E0A44D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReservationSalles-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B8FCB7F1F3DE40A55530092 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReservationSallesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D129F26624FE9D6CBB33BEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReservationSallesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		895370B022D4CDB9008939DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89B33DBB22EB6B8D004636D0 /* SecondAddReservation.swift in Sources */,
+				895AEBE322F64F8200346AB2 /* MyreservationsViewController.swift in Sources */,
+				8998882D22DCC21B00043B7F /* MainViewController.swift in Sources */,
+				894E84822302D354005CBDC6 /* RoomsViewController.swift in Sources */,
+				89536EA322EF8A1A00A10D9D /* Reservation.swift in Sources */,
+				895370BA22D4CDB9008939DA /* LoginViewController.swift in Sources */,
+				89A3455C22EB5CF100B28321 /* AddReservation.swift in Sources */,
+				893E7E6022D4E82D00755304 /* iOSDevCenters+GIF.swift in Sources */,
+				894E84842302E432005CBDC6 /* EditViewController.swift in Sources */,
+				89364AF722DB32D200E02465 /* User.swift in Sources */,
+				895370B822D4CDB9008939DA /* AppDelegate.swift in Sources */,
+				896CA1902300C624002FF7CB /* SearchFooter.swift in Sources */,
+				893E7E5E22D4E41500755304 /* SignUpViewController.swift in Sources */,
+				89536EA122EF88BA00A10D9D /* Salle.swift in Sources */,
+				891E690D22F19DE000B1D74E /* DetailsViewController.swift in Sources */,
+				895370C022D4CDB9008939DA /* ReservationSalles.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895370C722D4CDC0008939DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895370D022D4CDC0008939DA /* ReservationSallesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895370D222D4CDC1008939DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895370DB22D4CDC1008939DA /* ReservationSallesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		895370CD22D4CDC0008939DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 895370B322D4CDB9008939DA /* ReservationSalles */;
+			targetProxy = 895370CC22D4CDC0008939DA /* PBXContainerItemProxy */;
+		};
+		895370D822D4CDC1008939DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 895370B322D4CDB9008939DA /* ReservationSalles */;
+			targetProxy = 895370D722D4CDC1008939DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		895370BB22D4CDB9008939DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				895370BC22D4CDB9008939DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		895370C322D4CDC0008939DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				895370C422D4CDC0008939DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		895370DD22D4CDC1008939DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		895370DE22D4CDC1008939DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		895370E022D4CDC1008939DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F0A47978873CF82DB5FD342 /* Pods-ReservationSalles.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ReservationSalles/ReservationSalles.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4A2VQR3H3;
+				INFOPLIST_FILE = ReservationSalles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobelite.test.ReservationSalles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		895370E122D4CDC1008939DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3A781F801F6EC73645D66D8 /* Pods-ReservationSalles.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ReservationSalles/ReservationSalles.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4A2VQR3H3;
+				INFOPLIST_FILE = ReservationSalles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobelite.test.ReservationSalles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		895370E322D4CDC1008939DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB31B9636966A6D1F49A12B2 /* Pods-ReservationSallesTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4A2VQR3H3;
+				INFOPLIST_FILE = ReservationSallesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobelite.test.ReservationSallesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReservationSalles.app/ReservationSalles";
+			};
+			name = Debug;
+		};
+		895370E422D4CDC1008939DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4BA7B0086BB3520ABC99E7B /* Pods-ReservationSallesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4A2VQR3H3;
+				INFOPLIST_FILE = ReservationSallesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobelite.test.ReservationSallesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReservationSalles.app/ReservationSalles";
+			};
+			name = Release;
+		};
+		895370E622D4CDC1008939DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DABE36FD596EFF72F225DC7 /* Pods-ReservationSallesUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4A2VQR3H3;
+				INFOPLIST_FILE = ReservationSallesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobelite.test.ReservationSallesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReservationSalles;
+			};
+			name = Debug;
+		};
+		895370E722D4CDC1008939DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04F7AE172FE2217784921CEC /* Pods-ReservationSallesUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4A2VQR3H3;
+				INFOPLIST_FILE = ReservationSallesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobelite.test.ReservationSallesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReservationSalles;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		895370AF22D4CDB9008939DA /* Build configuration list for PBXProject "ReservationSalles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895370DD22D4CDC1008939DA /* Debug */,
+				895370DE22D4CDC1008939DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		895370DF22D4CDC1008939DA /* Build configuration list for PBXNativeTarget "ReservationSalles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895370E022D4CDC1008939DA /* Debug */,
+				895370E122D4CDC1008939DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		895370E222D4CDC1008939DA /* Build configuration list for PBXNativeTarget "ReservationSallesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895370E322D4CDC1008939DA /* Debug */,
+				895370E422D4CDC1008939DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		895370E522D4CDC1008939DA /* Build configuration list for PBXNativeTarget "ReservationSallesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895370E622D4CDC1008939DA /* Debug */,
+				895370E722D4CDC1008939DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		895370BE22D4CDB9008939DA /* ReservationSalles.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				895370BF22D4CDB9008939DA /* ReservationSalles.xcdatamodel */,
+			);
+			currentVersion = 895370BF22D4CDB9008939DA /* ReservationSalles.xcdatamodel */;
+			path = ReservationSalles.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 895370AC22D4CDB9008939DA /* Project object */;
+}
